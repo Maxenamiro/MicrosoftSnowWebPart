@@ -3,8 +3,8 @@
 ## Summary
 
 ## ✨ Key features
-- ** ❄️ Canvas-based rendering for maximum performance
-- ** 🚀 FPS-limited animation loop (20 FPS) to reduce CPU usage
+- ❄️ Canvas-based rendering for maximum performance
+- 🚀 FPS-limited animation loop (20 FPS) to reduce CPU usage
 - ** 🧠 Global snowfall state sharing via sessionStorage
 - ** Prevents duplicate canvases
 - ** Allows multiple web part instances to reuse the same snowfall
