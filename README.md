@@ -1,42 +1,48 @@
 # snow-effect
+<img width="340" height="383" alt="Screenshot 2025-12-17 at 12 16 44" src="https://github.com/user-attachments/assets/fca79bca-8672-475c-8855-c8d66615d21b" />
+
+
+![SnowExample](https://github.com/user-attachments/assets/8d587bb3-d4ea-42de-b548-4f87a8c40c41)
+
+
 
 ## Summary
 
 ## ✨ Key features
 - ❄️ Canvas-based rendering for maximum performance
 - 🚀 FPS-limited animation loop (20 FPS) to reduce CPU usage
-- ** 🧠 Global snowfall state sharing via sessionStorage
-- ** Prevents duplicate canvases
-- ** Allows multiple web part instances to reuse the same snowfall
-- ** 🖥 Retina / HiDPI support using device pixel ratio (DPR)
-	-	📐 Responsive resizing via ResizeObserver
-	-	🌬 Configurable parameters via Property Pane:
-	-	Snowflake amount (up to 2000)
-	-	Falling speed
-	-	Wind strength
-	-	Auto-stop timer (with smooth fade-out)
-	-	🌫 Graceful fade-out animation instead of abrupt stop
-	-	✏️ Edit mode safe
-	-	No visual noise in edit mode
-	-	Canvas runs only in view mode
-	-	🧹 Automatic cleanup
-	-	Stops animation when the last web part instance is removed
+- 🧠 Global snowfall state sharing via sessionStorage
+- Prevents duplicate canvases
+- Allows multiple web part instances to reuse the same snowfall
+- 🖥 Retina / HiDPI support using device pixel ratio (DPR)
+- 📐 Responsive resizing via ResizeObserver
+- 🌬 Configurable parameters via Property Pane:
+- Snowflake amount (up to 2000)
+- Falling speed
+- Wind strength
+- Auto-stop timer (with smooth fade-out)
+- 🌫 Graceful fade-out animation instead of abrupt stop
+- ✏️ Edit mode safe
+- No visual noise in edit mode
+- Canvas runs only in view mode
+- 🧹 Automatic cleanup
+- Stops animation when the last web part instance is removed
 
-##🧩 Technical highlights
-	-	Single global <canvas> element (position: fixed)
-	-	No DOM pollution, no event listeners on the page
-	-	Pointer-events disabled (does not block UI interactions)
-	-	Smart snowflake lifecycle management
-	-	Performance degradation protection for extreme values
+## 🧩 Technical highlights
+- Single global <canvas> element (position: fixed)
+- No DOM pollution, no event listeners on the page
+- Pointer-events disabled (does not block UI interactions)
+- Smart snowflake lifecycle management
+- Performance degradation protection for extreme values
 
-##🎯 Use cases
-	-	Seasonal or holiday effects (Winter / Christmas)
-	-	Corporate intranet decorations
-	-	Temporary visual effects without impacting SharePoint UX
+## 🎯 Use cases
+- Seasonal or holiday effects (Winter / Christmas)
+- Corporate intranet decorations
+- Temporary visual effects without impacting SharePoint UX
 
 ##Please star if you use or like its motivating me to do more SP solution and webparts
 
-[picture of the solution in action, if possible]
+
 
 ## Used SharePoint Framework Version
 
