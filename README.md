@@ -2,13 +2,13 @@
 
 ## Summary
 
-##✨ Key features
-	-	❄️ Canvas-based rendering for maximum performance
-	-	🚀 FPS-limited animation loop (20 FPS) to reduce CPU usage
-	-	🧠 Global snowfall state sharing via sessionStorage
-	-	Prevents duplicate canvases
-	-	Allows multiple web part instances to reuse the same snowfall
-	-	🖥 Retina / HiDPI support using device pixel ratio (DPR)
+## ✨ Key features
+- ** ❄️ Canvas-based rendering for maximum performance
+- ** 🚀 FPS-limited animation loop (20 FPS) to reduce CPU usage
+- ** 🧠 Global snowfall state sharing via sessionStorage
+- ** Prevents duplicate canvases
+- ** Allows multiple web part instances to reuse the same snowfall
+- ** 🖥 Retina / HiDPI support using device pixel ratio (DPR)
 	-	📐 Responsive resizing via ResizeObserver
 	-	🌬 Configurable parameters via Property Pane:
 	-	Snowflake amount (up to 2000)
