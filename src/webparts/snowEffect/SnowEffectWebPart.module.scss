@@ -1,0 +1,30 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+// Глобальные стили для снежинок
+.snowflake {
+	position: fixed !important;
+	background: white !important;
+	border-radius: 50% !important;
+	pointer-events: none !important;
+	z-index: 999999 !important;
+}
+.snowEffect {
+	.infoPanel {
+		padding: 15px;
+		text-align: center;
+		background: rgba(0, 120, 215, 0.1);
+		border-radius: 4px;
+		border: 1px dashed rgba(0, 120, 215, 0.3);
+		margin: 5px;
+
+		.title {
+			color: #0078d7;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+
+		.description {
+			color: #666;
+			font-size: 12px;
+		}
+	}
+}

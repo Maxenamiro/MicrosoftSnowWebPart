@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "snow-effect-client-side-solution",
+    "id": "c46cb3b4-ba1b-48bc-93cb-1f8f010d3619",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Snow-Effect description"
+      },
+      "longDescription": {
+        "default": "Snow-Effect description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "snow-effect Feature",
+        "description": "The feature that activates elements of the snow-effect solution.",
+        "id": "18001553-9658-4a41-a2ab-985f90f6f00a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/snow-effect.sppkg"
+  }
+}

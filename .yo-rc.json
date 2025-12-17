@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "snow-effect",
+    "libraryId": "c46cb3b4-ba1b-48bc-93cb-1f8f010d3619",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Snow-Effect",
+    "solutionShortDescription": "Snow-Effect description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

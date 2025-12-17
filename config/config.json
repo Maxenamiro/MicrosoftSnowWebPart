@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "snow-effect-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/snowEffect/SnowEffectWebPart.js",
+          "manifest": "./src/webparts/snowEffect/SnowEffectWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SnowEffectWebPartStrings": "lib/webparts/snowEffect/loc/{locale}.js"
+  }
+}
